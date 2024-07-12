@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545A97D92C25B8A400528F88 /* Runtimes_OkRSA_IBI_URLSessionWebSocketClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A97D82C25B8A400528F88 /* Runtimes_OkRSA_IBI_URLSessionWebSocketClientApp.swift */; };
+		545A97DB2C25B8A400528F88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A97DA2C25B8A400528F88 /* ContentView.swift */; };
+		545A97DD2C25B8A500528F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545A97DC2C25B8A500528F88 /* Assets.xcassets */; };
+		545A97E02C25B8A500528F88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545A97DF2C25B8A500528F88 /* Preview Assets.xcassets */; };
+		545A97E82C25B8F500528F88 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 545A97E72C25B8F500528F88 /* CryptoSwift */; };
+		545A97EA2C25B8FF00528F88 /* NamesRandom1000.txt in Resources */ = {isa = PBXBuildFile; fileRef = 545A97E92C25B8FF00528F88 /* NamesRandom1000.txt */; };
+		545A97EC2C25B92200528F88 /* myCryptoFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A97EB2C25B92200528F88 /* myCryptoFunctions.swift */; };
+		545A97EE2C25B92B00528F88 /* myWebSocketFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A97ED2C25B92B00528F88 /* myWebSocketFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		545A97D52C25B8A400528F88 /* Runtimes OkRSA-IBI URLSessionWebSocketClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtimes OkRSA-IBI URLSessionWebSocketClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545A97D82C25B8A400528F88 /* Runtimes_OkRSA_IBI_URLSessionWebSocketClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtimes_OkRSA_IBI_URLSessionWebSocketClientApp.swift; sourceTree = "<group>"; };
+		545A97DA2C25B8A400528F88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		545A97DC2C25B8A500528F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545A97DF2C25B8A500528F88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		545A97E92C25B8FF00528F88 /* NamesRandom1000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NamesRandom1000.txt; sourceTree = "<group>"; };
+		545A97EB2C25B92200528F88 /* myCryptoFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCryptoFunctions.swift; sourceTree = "<group>"; };
+		545A97ED2C25B92B00528F88 /* myWebSocketFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWebSocketFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545A97D22C25B8A400528F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545A97E82C25B8F500528F88 /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545A97CC2C25B8A400528F88 = {
+			isa = PBXGroup;
+			children = (
+				545A97D72C25B8A400528F88 /* Runtimes OkRSA-IBI URLSessionWebSocketClient */,
+				545A97D62C25B8A400528F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		545A97D62C25B8A400528F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545A97D52C25B8A400528F88 /* Runtimes OkRSA-IBI URLSessionWebSocketClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545A97D72C25B8A400528F88 /* Runtimes OkRSA-IBI URLSessionWebSocketClient */ = {
+			isa = PBXGroup;
+			children = (
+				545A97D82C25B8A400528F88 /* Runtimes_OkRSA_IBI_URLSessionWebSocketClientApp.swift */,
+				545A97DA2C25B8A400528F88 /* ContentView.swift */,
+				545A97EB2C25B92200528F88 /* myCryptoFunctions.swift */,
+				545A97ED2C25B92B00528F88 /* myWebSocketFunctions.swift */,
+				545A97E92C25B8FF00528F88 /* NamesRandom1000.txt */,
+				545A97DC2C25B8A500528F88 /* Assets.xcassets */,
+				545A97DE2C25B8A500528F88 /* Preview Content */,
+			);
+			path = "Runtimes OkRSA-IBI URLSessionWebSocketClient";
+			sourceTree = "<group>";
+		};
+		545A97DE2C25B8A500528F88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				545A97DF2C25B8A500528F88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545A97D42C25B8A400528F88 /* Runtimes OkRSA-IBI URLSessionWebSocketClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545A97E32C25B8A500528F88 /* Build configuration list for PBXNativeTarget "Runtimes OkRSA-IBI URLSessionWebSocketClient" */;
+			buildPhases = (
+				545A97D12C25B8A400528F88 /* Sources */,
+				545A97D22C25B8A400528F88 /* Frameworks */,
+				545A97D32C25B8A400528F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runtimes OkRSA-IBI URLSessionWebSocketClient";
+			packageProductDependencies = (
+				545A97E72C25B8F500528F88 /* CryptoSwift */,
+			);
+			productName = "Runtimes OkRSA-IBI URLSessionWebSocketClient";
+			productReference = 545A97D52C25B8A400528F88 /* Runtimes OkRSA-IBI URLSessionWebSocketClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545A97CD2C25B8A400528F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					545A97D42C25B8A400528F88 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 545A97D02C25B8A400528F88 /* Build configuration list for PBXProject "Runtimes OkRSA-IBI URLSessionWebSocketClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 545A97CC2C25B8A400528F88;
+			packageReferences = (
+				545A97E62C25B8F500528F88 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			productRefGroup = 545A97D62C25B8A400528F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545A97D42C25B8A400528F88 /* Runtimes OkRSA-IBI URLSessionWebSocketClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545A97D32C25B8A400528F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545A97EA2C25B8FF00528F88 /* NamesRandom1000.txt in Resources */,
+				545A97E02C25B8A500528F88 /* Preview Assets.xcassets in Resources */,
+				545A97DD2C25B8A500528F88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		545A97D12C25B8A400528F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545A97DB2C25B8A400528F88 /* ContentView.swift in Sources */,
+				545A97EC2C25B92200528F88 /* myCryptoFunctions.swift in Sources */,
+				545A97D92C25B8A400528F88 /* Runtimes_OkRSA_IBI_URLSessionWebSocketClientApp.swift in Sources */,
+				545A97EE2C25B92B00528F88 /* myWebSocketFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		545A97E12C25B8A500528F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		545A97E22C25B8A500528F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545A97E42C25B8A500528F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Runtimes OkRSA-IBI URLSessionWebSocketClient/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BXZQJ5LY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.raadhesh.Runtimes-OkRSA-IBI-URLSessionWebSocketClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545A97E52C25B8A500528F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Runtimes OkRSA-IBI URLSessionWebSocketClient/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BXZQJ5LY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.raadhesh.Runtimes-OkRSA-IBI-URLSessionWebSocketClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		545A97D02C25B8A400528F88 /* Build configuration list for PBXProject "Runtimes OkRSA-IBI URLSessionWebSocketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545A97E12C25B8A500528F88 /* Debug */,
+				545A97E22C25B8A500528F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545A97E32C25B8A500528F88 /* Build configuration list for PBXNativeTarget "Runtimes OkRSA-IBI URLSessionWebSocketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545A97E42C25B8A500528F88 /* Debug */,
+				545A97E52C25B8A500528F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		545A97E62C25B8F500528F88 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		545A97E72C25B8F500528F88 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 545A97E62C25B8F500528F88 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 545A97CD2C25B8A400528F88 /* Project object */;
+}

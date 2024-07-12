@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5430983E2BC5A9A700ECFFBB /* Runtimes_GQIBBI_URLSessionWebSocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5430983D2BC5A9A700ECFFBB /* Runtimes_GQIBBI_URLSessionWebSocketApp.swift */; };
+		543098402BC5A9A800ECFFBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5430983F2BC5A9A800ECFFBB /* ContentView.swift */; };
+		543098422BC5A9AB00ECFFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543098412BC5A9AB00ECFFBB /* Assets.xcassets */; };
+		543098452BC5A9AB00ECFFBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543098442BC5A9AB00ECFFBB /* Preview Assets.xcassets */; };
+		5430984C2BC5A9F100ECFFBB /* myCryptoFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5430984B2BC5A9F100ECFFBB /* myCryptoFunction.swift */; };
+		5430984F2BC5AA1500ECFFBB /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5430984E2BC5AA1500ECFFBB /* CryptoSwift */; };
+		543098512BC5AA2D00ECFFBB /* myWebSocketFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543098502BC5AA2D00ECFFBB /* myWebSocketFunctions.swift */; };
+		543098532BC5AB3F00ECFFBB /* NamesRandom1000.txt in Resources */ = {isa = PBXBuildFile; fileRef = 543098522BC5AB3E00ECFFBB /* NamesRandom1000.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5430983A2BC5A9A700ECFFBB /* Runtimes GQIBBI URLSessionWebSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtimes GQIBBI URLSessionWebSocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5430983D2BC5A9A700ECFFBB /* Runtimes_GQIBBI_URLSessionWebSocketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtimes_GQIBBI_URLSessionWebSocketApp.swift; sourceTree = "<group>"; };
+		5430983F2BC5A9A800ECFFBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		543098412BC5A9AB00ECFFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543098442BC5A9AB00ECFFBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5430984B2BC5A9F100ECFFBB /* myCryptoFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCryptoFunction.swift; sourceTree = "<group>"; };
+		543098502BC5AA2D00ECFFBB /* myWebSocketFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWebSocketFunctions.swift; sourceTree = "<group>"; };
+		543098522BC5AB3E00ECFFBB /* NamesRandom1000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NamesRandom1000.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543098372BC5A9A700ECFFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5430984F2BC5AA1500ECFFBB /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543098312BC5A9A700ECFFBB = {
+			isa = PBXGroup;
+			children = (
+				5430983C2BC5A9A700ECFFBB /* Runtimes GQIBBI URLSessionWebSocket */,
+				5430983B2BC5A9A700ECFFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5430983B2BC5A9A700ECFFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5430983A2BC5A9A700ECFFBB /* Runtimes GQIBBI URLSessionWebSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5430983C2BC5A9A700ECFFBB /* Runtimes GQIBBI URLSessionWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				5430983D2BC5A9A700ECFFBB /* Runtimes_GQIBBI_URLSessionWebSocketApp.swift */,
+				5430983F2BC5A9A800ECFFBB /* ContentView.swift */,
+				543098522BC5AB3E00ECFFBB /* NamesRandom1000.txt */,
+				5430984B2BC5A9F100ECFFBB /* myCryptoFunction.swift */,
+				543098502BC5AA2D00ECFFBB /* myWebSocketFunctions.swift */,
+				543098412BC5A9AB00ECFFBB /* Assets.xcassets */,
+				543098432BC5A9AB00ECFFBB /* Preview Content */,
+			);
+			path = "Runtimes GQIBBI URLSessionWebSocket";
+			sourceTree = "<group>";
+		};
+		543098432BC5A9AB00ECFFBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				543098442BC5A9AB00ECFFBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543098392BC5A9A700ECFFBB /* Runtimes GQIBBI URLSessionWebSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543098482BC5A9AB00ECFFBB /* Build configuration list for PBXNativeTarget "Runtimes GQIBBI URLSessionWebSocket" */;
+			buildPhases = (
+				543098362BC5A9A700ECFFBB /* Sources */,
+				543098372BC5A9A700ECFFBB /* Frameworks */,
+				543098382BC5A9A700ECFFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runtimes GQIBBI URLSessionWebSocket";
+			packageProductDependencies = (
+				5430984E2BC5AA1500ECFFBB /* CryptoSwift */,
+			);
+			productName = "Runtimes GQIBBI URLSessionWebSocket";
+			productReference = 5430983A2BC5A9A700ECFFBB /* Runtimes GQIBBI URLSessionWebSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543098322BC5A9A700ECFFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					543098392BC5A9A700ECFFBB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 543098352BC5A9A700ECFFBB /* Build configuration list for PBXProject "Runtimes GQIBBI URLSessionWebSocket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543098312BC5A9A700ECFFBB;
+			packageReferences = (
+				5430984D2BC5AA1500ECFFBB /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			productRefGroup = 5430983B2BC5A9A700ECFFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543098392BC5A9A700ECFFBB /* Runtimes GQIBBI URLSessionWebSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543098382BC5A9A700ECFFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543098532BC5AB3F00ECFFBB /* NamesRandom1000.txt in Resources */,
+				543098452BC5A9AB00ECFFBB /* Preview Assets.xcassets in Resources */,
+				543098422BC5A9AB00ECFFBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543098362BC5A9A700ECFFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543098402BC5A9A800ECFFBB /* ContentView.swift in Sources */,
+				5430984C2BC5A9F100ECFFBB /* myCryptoFunction.swift in Sources */,
+				5430983E2BC5A9A700ECFFBB /* Runtimes_GQIBBI_URLSessionWebSocketApp.swift in Sources */,
+				543098512BC5AA2D00ECFFBB /* myWebSocketFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		543098462BC5A9AB00ECFFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		543098472BC5A9AB00ECFFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543098492BC5A9AB00ECFFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Runtimes GQIBBI URLSessionWebSocket/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BXZQJ5LY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.raadhesh.Runtimes-GQIBBI-URLSessionWebSocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5430984A2BC5A9AB00ECFFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Runtimes GQIBBI URLSessionWebSocket/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BXZQJ5LY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.raadhesh.Runtimes-GQIBBI-URLSessionWebSocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543098352BC5A9A700ECFFBB /* Build configuration list for PBXProject "Runtimes GQIBBI URLSessionWebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543098462BC5A9AB00ECFFBB /* Debug */,
+				543098472BC5A9AB00ECFFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543098482BC5A9AB00ECFFBB /* Build configuration list for PBXNativeTarget "Runtimes GQIBBI URLSessionWebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543098492BC5A9AB00ECFFBB /* Debug */,
+				5430984A2BC5A9AB00ECFFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5430984D2BC5AA1500ECFFBB /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5430984E2BC5AA1500ECFFBB /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5430984D2BC5AA1500ECFFBB /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 543098322BC5A9A700ECFFBB /* Project object */;
+}
